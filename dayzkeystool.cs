@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace dayzkeystool
 {
-    public partial class Form1 : Form
+    public partial class dayzkeystool : Form
     {
         string execPath = AppDomain.CurrentDomain.BaseDirectory.ToString();
         static string logFile = "DayZKeysTool.log";
-        public Form1()
+        public dayzkeystool()
         {
             InitializeComponent();
         }

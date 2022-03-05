@@ -1,7 +1,7 @@
 ﻿
 namespace dayzkeystool
 {
-    partial class Form1
+    partial class dayzkeystool
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace dayzkeystool
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dayzkeystool));
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();

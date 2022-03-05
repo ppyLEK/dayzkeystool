@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 namespace dayzkeystool
 {
-    class Program
+    class dayzkeystool_main
     {
         [DllImport("user32.dll")]
         static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
@@ -58,7 +58,7 @@ namespace dayzkeystool
             sb.Append("\n[SUMMARY] - Moved total of (" + countNewKeys.ToString() + ") keys to keys folder.");
             File.AppendAllText(execPath + logFile, sb.ToString());
             sb.Clear();
-            Form1 form = new Form1();
+            dayzkeystool form = new dayzkeystool();
             System.Windows.Forms.Application.Run(form);
             
         }
